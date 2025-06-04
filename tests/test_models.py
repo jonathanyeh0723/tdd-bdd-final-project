@@ -28,7 +28,7 @@ import logging
 import unittest
 from decimal import Decimal
 from service.models import Product, Category, db
-from urllib.parse import quote_plus
+# from urllib.parse import quote_plus
 from service import app
 from tests.factories import ProductFactory
 
